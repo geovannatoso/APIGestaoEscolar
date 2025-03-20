@@ -4,7 +4,7 @@ from flask import Flask
 
 class TestStudentMethods(unittest.TestCase):
   
-    BASE_URL = 'http://localhost:5000/alunos'
+    BASE_URL = 'http://127.0.0.1:5000/alunos'
 
     def test_000_criar_aluno_sucesso(self):
         aluno = {
