@@ -79,7 +79,7 @@ def delete_aluno(aluno_id):
     if not aluno:
         return jsonify({"message": "Aluno não encontrado."}), 404
     alunos.remove(aluno)
-    return jsonify({"message": "Aluno deletado com sucesso!"}), 204
+    return jsonify({"message": "Aluno deletado com sucesso!"}), 200
 
 
 if __name__ == "__main__":
